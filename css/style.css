@@ -43,7 +43,7 @@ li {
 }
 .grid-contaner {
     display: grid;
-    grid-gap: 50px 50px;
+    grid-gap: 115px 1px;
     grid-template-columns:1fr 1fr 1fr ;
 }
 .grid-item {
@@ -51,6 +51,7 @@ li {
     height: 775px;
     margin-left: 50px;
     margin-right: 50px;
+    border-bottom: 4px dotted #7C7C91;
 }
 .grid-item img {
     object-fit: cover;
@@ -61,7 +62,8 @@ li {
 h1 {
     font-size:40px ;
     font-weight: bold;
-    margin-top: 95px;
+    margin-bottom: 60px;
+    margin-left: 50px;
 }
 h3 {
     font-size:25px ;
@@ -79,7 +81,7 @@ p {
 h5 {
     float: right;
     clear: right;
-    color: tomato;
+    color: #A00000;
 }
 .one  {
     grid-column-start: 1;
