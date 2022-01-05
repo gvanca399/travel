@@ -1,0 +1,112 @@
+body {
+    background-color:#C6D5FF;
+}
+.boxForul {
+    width: 1820px;
+    height: 98px;
+    background-color: #C6D5FF;
+    box-shadow: 5px 10px 18px #707070;
+    margin: 36px 50px 70px 50px;
+}
+.logonav {
+    width: 64px;
+    height: 90px;
+}
+ul {
+    display: inline-block;
+    float: right;
+    clear: both;
+    background-color: #EBEBEB;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 40px;
+    margin-top:18px ;
+    margin-right: 30px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+}
+li {
+    display: inline-block;
+    font-size:20px ;
+    font-weight: bold;
+    padding-right: 95px;
+}
+.active {
+    color:#A00000 ;
+    text-decoration: underline;
+}
+.coverImg {
+    margin: 30px 50px 95px 50px;
+    object-fit: cover;
+    width: 1820px;
+    height: 450px;
+}
+.grid-contaner {
+    display: grid;
+    grid-gap: 50px 50px;
+    grid-template-columns:1fr 1fr 1fr ;
+}
+.grid-item {
+    width: 870px;
+    height: 775px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.grid-item img {
+    object-fit: cover;
+    width: 870px;
+    height: 520px
+    
+}
+h1 {
+    font-size:40px ;
+    font-weight: bold;
+    margin-top: 95px;
+}
+h3 {
+    font-size:25px ;
+    color: #4D4F5C;
+}
+.text {
+    margin-top: 31px;
+}
+p {
+    font-size: 15px;
+    padding-top: 62px;
+    padding-bottom: 35px;
+    color: #7C7C91;
+}
+h5 {
+    float: right;
+    clear: right;
+    color: tomato;
+}
+.one  {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 50px;
+}
+.one img {
+    object-fit: cover;
+    width: 870px;
+    height: 520px
+    
+}
+.text1 {
+    display: inline-block;
+    width:870px;
+    vertical-align: top;
+margin-left: 20px;
+}
+footer {
+    height: 117px;
+    background-color: #7F8094;
+    margin-top: 150px;
+}
+.socmed {
+    float: right;
+    clear: right;
+    width: 136px;
+    height: 50px;
+
+}
